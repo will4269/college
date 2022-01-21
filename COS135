@@ -1,2 +1,6 @@
 JAVA
--type casting to determine 
+-type casting to determine what something is
+"  " -letters
+""  "" -string
+**Unable to infer types in python**, we need to say: x is an integer and =5
+definition, declaration, and initialization are seperate 
