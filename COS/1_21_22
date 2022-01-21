@@ -53,3 +53,9 @@ public int Helloworld(){
   System.out.println("Hello World");
   return 5;
 }
+
+
+Public vs Private : who can provide it
+type for function means a blank will send something out of it or a void function
+
+built in print system.out.println(""); or system.out.print("");
