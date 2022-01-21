@@ -1,0 +1,55 @@
+JAVA
+-type casting to determine what something is
+"  " -letters
+""  "" -string
+**Unable to infer types in python**, we need to say: x is an integer and =5
+
+definition, declaration, and initialization are seperate 
+
+-declaration
+  Provide the type of a data member
+  
+-initialization
+  Assign a value to a data member
+  
+  int x=5: #java
+  x=5 #python
+  x=5.5 #python, probably a float
+  double x=5.5 #java, we use doubles in class
+  
+  float vs double : 4bytes vs 8bytes
+  
+JAVA and C use static typed primitives
+  -permanent assignments
+  PRO
+  -memory usage
+  -best performance
+  CON
+  -not flexible
+  
+types
+(primitives)
+-int {}
+-float
+-double {}
+-long 8 digits (long long 8 digits, sometimes 16 inother studios)
+-short (2 bytes)
+-byte
+#numbers
+
+-char
+#single symbol
+-boolean
+(non-primitives)
+-list
+-Array
+-String
+-Files
+-any other object
+
+Semicolon ; to seperate lines 
+
+public int Helloworld(){
+  System.out.println("Hello World");
+  return 5;
+}
