@@ -1,0 +1,52 @@
+COS 225
+
+built in print
+system.out.print() or system.out.println()
+
+Structures
+  If
+  While
+  For
+  Arrays (like lists)
+
+if(boolean expression){
+//^need those parenthesis and curly
+  //stuff to do here
+}
+else if(nother expression){
+  //other things
+}
+else{
+  //and some more
+}
+
+
+while(some expression here){
+//sha bang
+}
+
+For(int i=0; i<0; i++){
+//do thing ten times
+}
+
+do not for(;;) it is infinite while
+
+if the I is declared in the loop it will be deleted after it, if not it will survive and maintain the count.
+
+int i=0; //counter variable and start value
+i<10; //counter max value
+i++ //counter step
+
+for proggraming in java
+-make a class, any name 
+-must define the main() function
+
+public static void main(String[] args){
+}
+String[]// an array of strings
+args // name
+
+
+OOP
+
+file>new project, >new class, > program
