@@ -1,0 +1,11 @@
+programming
+
+create first java project
+do not create module.info file
+open project explorer 
+open the new project 
+right click src
+new>class
+
+
+can't print un-assigned values, null is un-assigned.
