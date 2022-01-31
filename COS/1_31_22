@@ -29,5 +29,14 @@ ArrayList
 .remove(object) delete first instance
 .size()
 .indexOf(object) returns the index
-.get(index)
+.get(index) extract and item
 .sort()
+
+arraylist.indexof(object) will give -1 if not in index
+
+inputs by scanner class
+
+input buffer, waits for input and reads busses. and reads by type
+
+Scanner myScanner = new Scanner(System.in);
+
