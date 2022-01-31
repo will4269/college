@@ -1,3 +1,14 @@
 arrays only hold one type and of any length
 
 int[] arrayOfInts= new int[5];
+new instantiates the object int
+5 times
+
+arrayOfInts.length = 5 (0-4) indices
+
+cannot slice
+cannot use in (x in y == true)
+can't use in loops for( i in x)
+.add() or .remove()
+
+//contiguous, common border
