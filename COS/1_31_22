@@ -40,3 +40,15 @@ input buffer, waits for input and reads busses. and reads by type
 
 Scanner myScanner = new Scanner(System.in);
 
+String SomeWord;
+.System.out.println("Enter some text");
+someWork= myScanner.nextline();
+nextline() //strings
+nextInt() //int
+nextDouble() //doubles
+nextFloat() //float
+nextBoolean() //boolean
+
+scanner is also for file input
+
+Scanner fileScanner = new Scanner(new File("Sometxt.txt"));
