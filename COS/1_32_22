@@ -1,0 +1,3 @@
+arrays only hold one type and of any length
+
+int[] arrayOfInts= new int[5];
