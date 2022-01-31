@@ -19,3 +19,15 @@ java has ArrayList
 
 ArrayList<integer> somelistname = new ArrayList<integer>(); //will contain integers but without <integer> will run
 //<integer> is called generic and a java only ish concept and precompiler directive
+
+
+ArrayList<object> somelistname = new ArrayList<object>();
+will not remember class when reading so must be casted adequetley.
+ArrayList
+.add()
+.remove(index) delete index
+.remove(object) delete first instance
+.size()
+.indexOf(object) returns the index
+.get(index)
+.sort()
