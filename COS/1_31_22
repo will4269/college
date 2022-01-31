@@ -12,3 +12,10 @@ can't use in loops for( i in x)
 .add() or .remove()
 
 //contiguous, common border
+
+arrays go in the heap for they need more overhead
+
+java has ArrayList
+
+ArrayList<integer> somelistname = new ArrayList<integer>(); //will contain integers but without <integer> will run
+//<integer> is called generic and a java only ish concept and precompiler directive
