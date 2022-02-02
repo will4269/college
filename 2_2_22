@@ -1,0 +1,11 @@
+An Object is something we defined instatiation
+
+class is definition
+
+ABSTRACTION-IGNORE and hide what isnt needed or uneccessary
+
+Encapsulation- the ability to limit a class as opposed to inflate the above
+
+Inheritance- something is something else, playdoh is orange playdoh. Extends a class with more specific behavior. 
+
+Polymorphism- many classes involved in one object. 
