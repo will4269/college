@@ -1,0 +1,59 @@
+A class should, be defined abstractly, clear role (1 job), clear operations, relate in some way.
+
+critical componets of a class
+-Declaration
+  same name of class to file.java
+  capital of first letter
+  must use curly bracket
+  one class per file
+  
+  
+ -Instance variables
+   scope-spatial representation of variable
+  lifetime- time representation of variable
+  global, local, class level variables
+  local lifetime, duration of function
+  class lifetime, duration of the objcet
+  global lifetime, program execution
+  
+  instance variable (car)
+    -fuel level
+    -tire pressure
+    -tire rotation
+    relevant to one instance of car
+ 
+-function overloading
+    
+ every object must have one or more constructor methods.
+ is called automatically via new.
+ may have multiple constructors via function overloading
+ public Car() //default
+ public Car(String make) //parameterized for string
+ public Car(String make, String model) // takes two strings
+ return type is the type of the function.
+ 
+ default is a parameterized constructor with no inputs.
+ parameterized -specific, default vague
+ 
+ accessors and mutators, effect private data.
+ 
+ accessors sole purpose to return private data member
+ -getMake()
+ -getModel()
+ not void
+ 
+ mutator sole purpose to take and set a private data member
+ 
+ 
+ why bother with getters and setters
+ 
+ sanitization inputs
+ 
+ if correct assign it
+ else we can do some errors
+ include getters and setters
+ 
+ car must have method for refueling
+ has safe guards about overfilling
+ 
+ function works with or on the class, than any function is a good method. 
