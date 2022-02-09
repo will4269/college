@@ -1,0 +1,51 @@
+inheritance
+A inherits from B
+A is a subclass of B
+A is a derived class of B
+A is functionality of B
+
+B is a superlass of A
+B can be accessed by A using super 
+B is not functionally A
+
+class may inherit from another using extends
+
+public class room
+public class Labroom extends room
+public class Classroom extends room
+public class ActiveClassroom extends Classroom
+
+one object that contains all other objects
+
+inheritance is a defined relation
+
+extends all aspects of room into classroom, more specific variants of room.
+
+Every class inherits something
+
+extends inheritance is obvious
+without class implicity inherits Object
+
+object does not inherit
+
+all features are inherited from object for example, toString()
+
+toString() Classroom@0004A7C
+
+we are overideing object's toString(), so we can move out relevant info @override
+
+@ pre-compliler directive
+
+@override
+public String toString(){
+//code
+}
+
+to redo print stuff
+@override
+public String toString(){
+ Return building + number + " can hold " + capacity;
+}
+
+x=10
+x+""; //String.parseint(x); x+"" is horrific for memory
