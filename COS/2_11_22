@@ -1,0 +1,78 @@
+hierarchies
+can define abstractly
+
+added qualifier to methods and class's is the abstract qualifier
+
+declaring abstract means you do not want to actually define the behavior now
+
+useful if you require a behavior
+
+public void dosoemthing(){
+}
+
+versus 
+
+public abstract void doSomething();
+
+abstract methods allow us to say that our class's must do something
+
+only abstract methods, need to implement them later
+
+abstract class must still have body
+
+abstract classes cannot ever be instantiated, only inherited 
+
+No objects of an abstract class. 
+
+class is a template for object
+
+so, only class fetch from the abstract classes to work, not abstract
+
+not abstract class, but use derived classes
+
+abstract classes be abstract conceptually. 
+
+
+EXAMPLE:
+
+public abstract class Room{
+public int walls=4;
+public Door Ingress;
+public double volume =100.0;
+public boolean lightson=false;
+
+Room(int walls, Door Ingrees, double volume, boolean lightson){
+this.walls=walls;
+this.Ingress=Ingress;
+this.volume=volume;
+this.lightson=lightsob;
+}
+public abstract void openDoor();
+}
+
+//other.java
+
+new class
+Classroom
+change super object, to room
+
+public class Classroom extends Room{
+Classroom(int walls, Door Ingrees, double volume, boolean lightson){
+  super(walls, Ingress, volume, lightson);
+  }
+//automatically put open door constructor
+public void openDoor(){
+  super.Ingress.opened=true;
+  }
+}
+
+
+new class
+Door 
+public class Door{
+public boolean opened = false;
+}
+
+
+
+
