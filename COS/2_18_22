@@ -1,0 +1,98 @@
+Interfaces
+
+-no method defined past to a class that inherits 
+(required behavior of the decendants)
+taxonomic tree
+
+Cars
+
+Universal Remote
+
+Elevator controls
+
+Wi-Fi interfaces
+
+Interfaces-is a thing that does nothing except pass in and out info-
+
+green circle- class
+I purple circle for interface
+
+public interface yourNameHere{
+
+
+}
+
+public class SomeClass implements someInteface{
+
+
+}
+
+can implment multiple interfaces
+-implement all methods
+can extend one class
+-extends all methods
+
+bring along everymethod with a class
+
+
+Universal remote
+-different IR signals
+-different commands
+-more advance commands
+the goal is to implement as many or all interfacesand implement them
+
+Interface java
+"the place at which independent and often unrelated systems meet and act or communcate with each other"
+
+interface car
+-gas
+-brake
+-blinker
+-steering wheel
+
+we aren't the car we are using the car
+
+must use the interface to operate thing
+
+
+
+--------------------------------------------------------------------------------------------------------------
+=====DATA STRUCTURES======
+
+https://static.javatpoint.com/ds/images/ds-introduction.png 
+
+Data "information stored digitally that can be transitted or processed"
+
+Structure "definite pattern of orginization"
+
+Data Structure "any various methods or formats( such as array or list) for organizing data on a computer"
+
+data structure 
+-orginization of data
+arrangement
+-definition of data
+kind of data 
+-data payload
+how much
+
+effciency 
+-computers can perform, and well at that
+spatial vs temporal complexxity of data
+
+Chronlogically: time-order
+
+Alphabetical Lexicographical
+
+unsorted order
+
+numerical order
+
+categorical
+
+Olefactory
+
+Quantity
+
+order (way to organize)
+
+Arrangement (where to organinze)
