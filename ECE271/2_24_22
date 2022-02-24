@@ -1,0 +1,71 @@
+march 8th midterm
+
+stepper motor
+ch16
+
+magnetic field to rotate connector, AC\DC
+
+Exact motor movemet
+-stepper motor, move in tiny steps due to many magnets
+-servo motors, feedback can be just normal motor
+
+Bi polar motors, transmorfer with AC current to flip poles
+H-bridge typically used
+
+or Uni-polar
+
+Stepper motor,
+two rings south and north, offset so rotator always moves
+
+stepper resistance 50ohm
+need 5v
+need 100mA
+
+board only has 10mA
+use Darlington Transistor pair
+
+two transstors hooked about to each other that mplify current, with diodes 
+https://www.electronics-tutorials.ws/wp-content/uploads/2013/09/tran63.gif?fit=482%2C238
+
+Kickback current, is prevented by diodes, kickback is casued by induced current from stepper motors
+Stepper motor, can be used to stop by using power to keep magnet on
+
+pairs of magnets that will turn on out of phase of the other to move the rotor, wave stepping
+
+A,B,An,Bn, 
+
+    S(A)
+S(Bn)    S(B)
+    S(An)
+    
+Full Stepping
+
+A(2T)(0-2T)*
+An(2T)(2T-4T)**
+B(2T)(1T-3T)*
+Bn(2T)(0-1T)-(3T-5T)**
+
+Half stepping,
+*
+ABn
+AB
+B
+AnB
+An
+AnBn
+Bn 
+*
+45 deg or inbetween electromagnetics
+
+GPIO-PWM, to input proper voltage levels.
+BSRR to setup multiple GPIO
+
+void full_step(int degrees){
+
+}
+
+32full steps to go around,
+gear reduction of 54
+
+2048, 512 repeats for 360 deg.
+repeats=(512*degrees)/360. 
