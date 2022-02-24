@@ -69,3 +69,12 @@ gear reduction of 54
 
 2048, 512 repeats for 360 deg.
 repeats=(512*degrees)/360. 
+
+
+Text, ASCII 7-bit, in a byte, so top bit is parity- error checking for corrupted bit. Or extension, 8bit would add extra stuff 
+
+16-bits attempt at full language, uni-code wchar_t
+
+32-bit actuall unicode. 
+
+UTF-8, 24 bit max to get most letters in ASCII-esque notation.
