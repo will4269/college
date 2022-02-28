@@ -1,0 +1,70 @@
+definition of data
+
+linked data structures
+
+casting data 
+
+primitives
+int, float, char, bool
+Object
+Cat, Car
+
+Define data for orginaztion, much easier to organize data of one type
+-numerical
+-alphabetical (ASCII of the first letter of string)
+char character = 'a';    
+int ascii = (int) character;
+
+Many are designed to accept one type
+-arrays
+-lists
+
+Much harder to compare when inheritance is involved
+cats
+-cats in sweaters
+--cats in sweaters who program
+becomes complex to look at
+(too many upcasts new cat(); upcasted from cats in sweaters who program)
+downcasting doesn't work to well (down to the roots up to the sky)
+
+How to sort cats
+-size
+-name
+-type
+-MPS
+
+limited to GT,LT,=
+
+data payload, referring to the data itself
+
+meta data
+data about data
+
+size of data is uncontrollable (user controlled)
+more data, more problems
+
+Arrays allocate 50 spots no matter if you use them
+-fast, time effective
+-not efficent
+
+ArrayList (not continuous)/(shuffeled)
+-slow, space effective(on surface)
+-not efficent
+
+limited to (2^32-1)
+
+Arrays are good, due to contiguous nature, no refernce to the next data point, non contiguos needs a second pointer to anew memory location
+
+noncontiguous(less memory efficent due to stored pointer, additional meta-data)
+
+ArrayLists use import, arraylist uses no square brackets
+
+we have boolean add(Object o); add an object to the end of the list; ignore returned boolean
+
+remove(Object o) find occurence 0
+
+remove(int i); finds elemetn at index i;
+
+-a generic is a statment inside the declaration of an Arraylist that specifies the only type allowed in the lsit
+
+Use Integer is a class int, a primivite, 
