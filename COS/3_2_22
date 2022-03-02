@@ -1,0 +1,42 @@
+ArrayStack
+
+Array-Contiguous,Statically,One fixed size (usually)
+
+ArrayList-removes limits of size but generates errors in random placement and more memory usage
+
+ArrayStack-(Stack is the keyword)
+
+Stack-a linear collection in hwhich all insertions (pushes) and removals (pop) occur at one end called the top
+
+Stack is LIFO (Last in First Out) data storage, test Ques
+
+The top is public, rest is private/ represents black box
+
+push-add an item to stack
+pop-remove item from top of stack
+peek-return value at top
+empty-determine if stack is empty
+size-number of items in stack
+
+POP-raise a collection-based exception
+needs error checker
+handeld exception
+
+T, is the type passed into generic
+public interface Stack<T>{
+public void push (T element);
+public T pop();
+public T peek();
+}
+
+Concerend with perfomance of the most common algorithim the most
+
+POP-always removes top item, but other things can be changed
+
+Stack must be private, only the 5 methods
+
+public class ArrayStack<T> implements Stack<T> {
+private int capacity; // initial capacity private int top; // top represents number of elements
+private T[ ] stack; // generic array reference
+
+stack = new T [capacity];
