@@ -1,0 +1,57 @@
+algorithms
+
+difficult to compare time efficency
+-different hardware
+-different concurrency
+-different inputs
+-different problems
+
+compared using big O (order of magnitude)
+ notatio
+ 
+ Compares grow rate of algorithim
+ 
+ how does run time change with size
+ 
+ six main categories of time complexity we will explore
+ 
+ O(1)
+ Constant time
+ unaffected by the change in the size of data, is the best
+ 
+ O(n)
+ Linear time
+ as size increases time increases in proportion to data
+ 
+ O(n^2)
+ Quadratic time
+ increase runtime quadratically with an increase of data size
+ 1 member 1^2 , 5 members 5^2
+ 
+ O(logb2(n))
+ Logrithmic time
+ 
+ O(nlogb2(n)
+ log linear sort
+ 
+ O(2^n)
+ Exponential time the worst
+ 
+ Ranked 
+ 1. constant
+ 2. logarithmic
+ 3. linear
+ 4. log-linear time
+ 5. quadratic
+ 6. exponential
+ 
+ Linear( for loops, searching for something, modify arrays)
+ 
+ analyze performance on the first two 
+ System.currentTimeMilis();
+ 
+ linear-one or more loop
+ quadratic- loops in loops
+ Logarithmic time -binary search
+ log linear-quick sort
+ 
