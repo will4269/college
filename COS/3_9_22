@@ -1,0 +1,96 @@
+Big O
+
+summarize all data structures using collection
+
+Linked lists-Dynamic memory is the main advantage flexible size
+
+arrays are typically underused (spots are empty majority of time)
+
+Arrays are typically faster than Lists
+
+lists could be faster
+insert into a list is easier than lists than reshuflling
+
+Flexible nonlinear data structures can be created with nodes that utilize multiple references
+
+disadvantage, each node has data, and a pointer to what is next
+use more space than array
+could be slower than array counterparts
+Sequential search faster in an array as opposed to hoping around the list
+
+NODE:
+
+linked node contains multiple data fields and  afew simple methods (construction and destruction)
+
+three member linked list, 
+no stack implementation
+we will be required to set up references as we go
+
+ step1: declare the node "head", head is the only way to refer to node
+ 
+  LinearNode<String> head=null; 0 element length list
+ 
+ step2: Create the first node and insert it to the list
+ 
+  head = new LinearNode<String>("Chicago"); 1 element length list
+  
+  step3 second nodee
+    LinearNode<String> temp= new LinearNode<String>("Denver");
+    temp.setNext(head);
+    head = temp
+   step 4
+    LinearNode<String> temp= new LinearNode<String>("Miami");
+    temp.setNext(head);
+    head = temp
+    
+    Each node wil contain reference to Data, reference to next element of the list
+    optionally back wards link, other meta data.
+    
+    Singly linked lists can only be traveled in one direction, from the head to the tail node
+    
+    how to optimize this? not possible
+    scanning
+    
+    LinearNode<String>=head;
+    while(current != null){//use null to see when the unkown length
+    System.out.println(current.getElement());
+    current=current.getNext();
+    }
+    
+    
+    COLLECTIONS===========================================================================================
+    a data struccture is an organzide group of data in some fashion along with operations to manipulate the data
+    
+    a data structure will be stored in a class
+    
+    java collections framework implements
+    arrays
+    ArraLists
+    Lists
+    Stacks
+    Queues
+    Vectors
+    Sets
+    Maps
+    Priority Queues
+    
+    The Collection interface defines the common operatons for all previous listed classes
+    -store data
+    -access data
+    -reference onject
+    -add or remove from data set
+    
+    Interfaces <- Abstract Classes<- Concrete classes
+    Collections<-interfaces(Queue,Lists,set)<-Abstract(Abstract Queue, Anstract list)<-concrete(hash set, vector set)
+    
+    Collection<String> c1 = new ArrayList<>();
+    c1.add("red");
+    adds "red" to the ArrayList c1
+    
+    iterator is a mechanism for traversing a container from on element to the next
+    
+   Iterator: define an object that can be used as an iterator
+   
+   Iterable: used to define a colleciton which an iterator can be produced
+   
+   Scanner hasNext(), Next()
