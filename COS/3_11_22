@@ -1,0 +1,100 @@
+Linear node is the linked list 
+coding in class
+
+
+public class ArrayStack<T> implements Stack<T>{
+  private ArrayList<T> aList = new ArrayList<T>();
+*add in implemented methods, remove overide*
+  public void push(T element){
+    aList.add(element);//constant time, but may scan and be linear
+  }
+  public T pop(){
+    return aList.remove(aList.size()-1);//0(1)
+  }
+  public T peek(){
+    return aList.get(AList.size()-1);//0(1)
+  }
+  public bool is Empty(){
+    return aList.size ==0;
+    //!aList.size();
+    //aList==null;// nothing was initiallized, error checker 
+    //aList.get(0)==null; 
+  }
+  public int size(){
+    return aList.size();
+  }
+}
+//======== end of stack
+private class ArrayQueue<T> implements Queue<T>{
+  private ArrayList<T> aList = new ArrayList<T>();
+  
+  public void enqueue(T element){//0(1)
+    aList.add(element);
+  }
+  public void dequeue(){//0(1)
+    return aList.remove(0);
+  }
+  public T getFront(){//0(1)
+    return aList.get(0);
+  }
+    public bool is Empty(){
+    return aList.size ==0;
+    //!aList.size();
+    //aList==null;// nothing was initiallized, error checker 
+    //aList.get(0)==null; 
+  }
+  public int size(){
+    return aList.size();
+  }
+}
+//=====================end of queue
+public class LinkedStack<t> implements Stack<T>{
+  linearNode<T> head;
+  
+  public void push(T element){//set first
+      if(head==null){
+        head=new LinearNode<T>(element);//0(1)
+      }
+      elseif (head.getNext()==null){//second 
+       LinearNode<T> temp=new LinearNode<T>(element);
+       head.setNext(temp);
+      }
+      else{//traverse 0(n)
+        linearNode<T> temp =head;
+        while(temp.getNext() != null){
+          temp=temp.getNext();
+        }
+        temp.setNext(new LinearNode<T>(element));
+      }
+     }
+     public T pop(){
+     if(head=null){
+      return nulll;
+     }
+     else if(head.getNext()==null){
+      linearNode<T> temp = head;
+      head=null;
+      return temp.getElement();
+     }      
+     else{//traverse
+        linearNode<T> temp =head;
+        linearNode<T> temp2;
+        while(temp.getNext().getNext() != null){
+          temp=temp.getNext();
+        }
+        temp2.temp.getNext();
+        temp.setNext(null);
+        return temp2.getElement();
+      }
+ 
+}
+//==================================end of linked list
+public class LinearNode<T>{
+  private T element;
+  private LinearNode<T> next;
+  
+  public setElement(T element){
+    this.element=element;
+}
+public T getElement();
+  return this.element
