@@ -1,0 +1,41 @@
+public inteface Stack<T> {
+  public void push(T element);
+  
+  public T pop();
+  
+  public T push();
+  
+  public boolean isEmpty();
+  
+  public int size();
+}
+public Queue<T>{
+  public void enqueue();
+  
+  public void dequeue();//where queue is left
+  
+  public void getFront();// where queue is left
+  
+  public boolean isEmpty();
+  
+  public int size();
+  
+  
+  
+all linked nodes are linked lists, do not import linked list. Also it contains everything for linked lists.
+  
+  
+arrayQueue would always have constant time due to the shifting of the entie array either adding or removing
+
+how to fix the linear time in LinkedQueue for push and pop
+
+change where we push and pop (at the head)
+  
+  -mostly talks about how the code works
+  
+  
+(Exit from the front of the head of the list) (enter from end of list)
+
+dequeue (head==null)....
+
+Enqueue (tail==null)
