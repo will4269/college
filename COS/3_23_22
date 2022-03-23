@@ -1,0 +1,89 @@
+taking big O and moving it to trees
+
+COLLECTIONS
+
+in java.util (java utilities)
+
+Collection basic idea of a data structure
+-many built-in data structures comminly known as the java collections framework
+
+Array
+ArrayLists
+Lists
+Stack
+Queue
+Vectors
+Sets (no proper set, by definition must not be in order, computers put them sort of in order)
+Maps
+Priority Queues
+
+are all Collections
+
+Collection interface defines the common operations
+
+sets-store a group of non-duplicative elements
+Lists-store a posistional collection of elements with random access
+Stack-LIFO
+Queue-FIFO
+
+Interface-100% abstract
+Abstract class-100%<= abstract
+Concrete class (non-abstract)
+
+Collections is implemented by (Set,List,Queue)
+
+Linked List-from Queue
+
+ArrayList- from List
+
+Collection methods are overwitten by the implementor, such as ArrayList
+
+implicit upcast vs implicit downcast
+
+safe vs dangerous
+
+Symbol table is overwritten often. (way to track which type was upcast)
+
+ITERATORS
+
+lives next to collections, travels across a container/collection
+
+iterator: is used to increment through container
+
+iterable: used to define a collection which an iterator can be produced
+
+if a class implements iterator gains hasNext() and Next().
+
+method needed for an iterator
+
+iterator<T> iterator();
+
+using an iterable collection one can use an forEach
+
+Collection<Integer> ages = new LinkedList<Integer>();
+ages.add(10);
+ages.add(5);
+ages.add(25);
+
+for(Integer k: ages)
+  System.out.print(k+"*");//"*" is a pointer
+  System.out.println();
+  
+  
+  
+List tells Collections to have sequential order
+
+use ArrayList or Linked List
+
+COMPARABLE
+
+sort and search
+
+compareTo (returns int)
+
+0 means =,Positive means >,negative means<
+
+COMPARATOR
+
+creats new criteria to compare
+ 
