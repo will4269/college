@@ -1,0 +1,56 @@
+Exam next time, 
+
+what if something keeps equalaling null.
+
+update LinkedStack to LinkedStack2
+
+to get rig of null testing
+
+IE, head==null
+
+null.reference.exception
+exception, 
+an attempt to reach null memory address, 
+
+referencing zero leads to a segmentation fault. SO DONT GET NULL
+
+Exception handling
+
+exceptions-logical error raised by our program
+
+exceptions don't result in crashes
+
+You can't see a crash
+
+Unhandled exception, no exceotion handling
+
+Try-Catch blocks
+
+Defensive Coding
+
+Dequeue,peak
+
+if(head==null){
+}
+
+for here it should return null, if head has null. becuase head was null.
+
+try{
+  LinearNode<T> temp = head;
+  head= head.getNext();
+  size--;
+  return temp.getElement;
+}
+catch(Exception e){//catch all term e
+}
+or better yet
+catch(NullPointerException e){
+  Sys.out.println(e.getMessage());//not necessary
+  return null;
+}
+
+helps with debugging, e carries all debugger info
+
+avoids the if statement, is avoided and only deals with error case.
+
+catch only do one neccesary and no more.
