@@ -1,0 +1,33 @@
+11-am thurs
+11am friday teacher 
+
+boardman 336
+
+abstraction
+polymorphism
+encapsulation
+iheritance
+
+push (add to tail)
+pop  (read off head)
+peak  (look at head)
+
+Queue (add to tail)
+deQueue (remove from tail)
+peak (look at tail)
+
+Linked node=linked list
+
+0(1)
+
+0(n) linear
+
+0(n^2) quadratic-loop in loop
+
+0(2^n) exponential
+
+0(log(n))
+
+hierarchy of order
+
+matching problem
