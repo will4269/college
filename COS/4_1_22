@@ -1,0 +1,64 @@
+HT-Media on campus for programming
+
+seems like a fun employer. Free range projects
+
+jacob.mealey@maine.edu Chapboard hall mon-wed-fri afternoon
+
+TREES
+
+fastest thing around
+
+a nonlinear hierarchial data structure of nodes defined recursively as:
+
+a collection of no nodes is a empty tree
+
+A single node called a root node is a tree
+
+if root is null the tree is empty
+
+top down
+
+a child node is one below a root or the next one down. (multiple possible)
+
+Node can have only on parent.
+
+roots no parents
+
+no link to previous, optimal limitations
+
+leaf: a node with no decendants
+
+MAXIMUM of 2 descendants
+
+any node with descendants is a subtree
+
+empty tree is a subtree of all trees
+
+left or right child
+
+Linked list vs tree:
+1 vs 2 descendants
+each node has payloads
+linkages need to be maintained
+
+Trees cannot be iterated through easily
+
+cant use a loop because would need to generate loops to check down descendants
+
+use recursion
+
+a traversal is a specific pattern of access on a tree
+
+all traversals should be done with recursion
+
+dunno how many subtrees
+dunno how long the tree is (height of a tree/ how many levels)
+dunno how many branches
+
+INORDER traversal-visit left child, visit node, visit right
+
+PREORDER traversal- visit node, left, right
+
+POSTORDER traversal- visit left, right, node
+
+ALways L before R
