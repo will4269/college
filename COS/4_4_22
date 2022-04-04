@@ -1,0 +1,41 @@
+Traversals
+
+O(Log(n))
+
+A can have at most 2 descendants (our choice)
+
+A child is either a left or righ child
+
+One descendant is sub optimal, gaps in trees are bad to
+
+a traversal is a specific pattern of access across a tree
+
+could be 
+
+in,pre, post order
+
+left,mid,right inorder
+mid,left,right pre
+left,right,mid post
+
+use recursion till a case such as left and right are null.
+
+inorder is a weird one, not respected beyond binary tree. 
+sorting not searching.
+
+the inorder of a binary search tree is always in sorted order
+
+self balancing even on both sides.
+
+wrapper around the tree
+
+linkedQueue was a wrapper for linear node
+
+used linearnode to perform Queues function and protext linearnode
+
+Tree node has root like Queue head.
+
+Insert to tree
+Remove to tree
+
+exception handling is majorly important.
