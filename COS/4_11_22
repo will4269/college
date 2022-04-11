@@ -1,0 +1,57 @@
+Trees
+
+rarely simple
+
+adding structures to our trees
+
+we do binary search structure
+
+and now we balance it
+
+balanced: a minimum and maximum height of descendants can have a gap of 1 (2 and 3 not 2 and 4)
+
+perfect tree: only one height
+
+determining height is height of descendants +1
+
+height is tallest descendant +1.
+
+leaf is zero
+
+empty is -1
+
+sub trees can be balanced. Root is balanced by every node below it
+
+so a root being balanced requires subtrees being balanced
+
+root can be unbalanced with a balanced subtree
+
+main goal to avoid memory access
+
+first possibility insert to empty tree (null.insert())
+
+second possibility insert to a one node tree (node.insert())
+//prefer  left
+
+third possibility insert to a two node tree with one left descendant insert to right
+
+fourth possibility insert to a three node tree, use recursion to call at lower places
+
+
+removal 
+
+leaf is perfect
+
+anti leaf is bad
+
+anti leaf could leave a memory leak.
+
+easiest solution promote descendant 
+
+highly unlikely to unbalance a tree
+
+check for heights differences pick the taller one and promote it. if equal dont care, go right most one
+
+left right balance method + to 0 -
+
+sorted trees have best performance.
