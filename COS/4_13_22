@@ -1,0 +1,11 @@
+a binary search tree in which left child is less than its parent and each right is greater than
+
+log(n) is slow
+
+searching is log
+
+check if it is a binary tree use inorder to see if it is inorder
+
+return true or false if in the tree
+
+false if no descendatnts visible
