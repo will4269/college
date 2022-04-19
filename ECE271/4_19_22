@@ -1,0 +1,16 @@
+DMA direct meory access
+
+DMA transfer data without cpu
+drivers 
+fast
+reduce interrupt time
+AHB-advance high-performance bus
+APB-advance peripheral bus
+ASB-advance system bus
+AMBA-bus architecture
+
+ASDR
+
+ADC->ADC
+
+use digital wave through pwm and speaker to geenrate music 
