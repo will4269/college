@@ -1,0 +1,24 @@
+hash tables
+
+int hash(int key){
+  return key/10000
+  }
+  
+  fails on clashing numbers 513-0000 and 513-0001
+  
+  hashing hopes for nice cases
+  
+  Open addressing technique \
+  
+  if something here look next
+  
+  to search for a thing in for a next empty slot is linear
+  
+  a collison requires sequential traversal of linkend list
+  
+  However with an efficent hash function, these lists should be short
+  
+ hash depends on
+ quality of function
+ collision resolution technique
+ capacity of hash
