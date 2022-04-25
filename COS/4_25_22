@@ -1,0 +1,62 @@
+coding basics
+check old tests
+-instantation (new) 
+Abstraction
+encapsulation
+polymorpism -a cat is an anima
+inheritance all cars can start
+
+what is an object
+
+name
+memory adress
+...
+
+Array stack
+push pop peek
+LIFO
+
+array vs linked list
+
+linked list non-contiguous
+
+tail and other variables in linked list
+
+cannot assume they exist
+
+pre-post order
+
+height variance of 1 to be balanced
+
+emppty tree -1
+
+leaf is zero 
+
+1 + maximum of their descendants = height
+
+heap value of descendants are larger than root for root early or vice versa
+
+nlog(n) for heap
+
+bigO
+
+O(1) 1.
+O(n) 3.
+O(n^2) 4.
+O(log(n)) 2.
+
+1. is best
+
+O(nlog(n))
+O(2^n)nested loops
+O(n!)
+
+Exception
+try{}
+catch{}
+handeled vs unhandeled
+
+collections
+
+collection->list->arraylist/linkedlist
+abstract abstract class concrete class.
