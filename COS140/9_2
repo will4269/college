@@ -1,0 +1,49 @@
+Digital Computers: Bits and binary
+Analog Computers: Tapes, and mechanical calculators
+Quantum Computers: really weird
+human computer: old school
+
+digitals are easy to build and fast, but inaccurate and hard to program
+
+* Why binary
+Simple two State
+low and hi
+work on voltage levels
+
+Hardware, software, and software 
+
+Communication lines buses
+
+CPU
+-control unit
+-registers
+-Arithmetic control unit (ALU)
+-Buses
+-*added GPU
+-*Networking
+-*Cache
+
+Primary memory -Random Access Memory
+fundemental unit 8-bits BYTE
+
+2^10 1024=1kibibyte KiB ,2^20 ~1million bytes MiB, 2^30 gibibyte,
+
+Cumbersome to control all aspects of computer
+Also, use CPU to full potential
+
+OS
+program that controlls all
+runs programs as processes
+pseudoparallelism (multiprogramming, multiprocessing)
+
+CPU only understands voltage patterns
+Computers are Von neuman machines or stored-program and read and run it
+
+So, we made languages like assembly
+
+thne FORTRAN, COBOL, LISP, ALGOL -1950
+today C,C++,C#, Java, Python, Rust, Go
+
+Mainframe-high speed old boys "Big Irons"
+Workstations-"minicomputer"
+Mainframes today are servers with virtual machines.
