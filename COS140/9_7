@@ -1,0 +1,27 @@
+Digital logic
+
+software-OS
+some hardware-surface lecel
+
+interacts with CPU
+
+Dgital logic is bottom level-gates above capacitors
+gates at least 1 input and 1 output
+logic operators
+truth tables
+
+or gate -curved
+and gate -squared
+
+PNP and NPN transistors
+
+pic in comp sci
+PNP on when signal high
+NPN on when signal low
+
+gates are abstractions of circuits
+
+Combinational: only based on inputs
+Sequential: state of previous plus inputs
+
+pins leaves chips
