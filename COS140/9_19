@@ -1,0 +1,54 @@
+Data representation
+decimal is x*10^0+y*10^1+Z*10^2 and so on to represent all decimal numbers
+example 125=5*10^0+2*10^1+1*10^2
+Binary is x*2^0+y*2^2+z*2^2 and so on to represent all binary numbers (in decimal format)
+101 = 1*2^0+0*2^1+1*2^2, 1+4=5
+
+given a decimal number n we can find the largest power of 2 to fit
+
+2^k<=n<2^(k+1)
+p=2^k
+or logbx(), or log base(x) of ()
+logb2(n)=k
+
+example
+n=125
+p=64
+k=logb2(125)=6
+
+2^7 > 125
+2^6 < 125
+so 2^6 is used to represent 125
+
+n'=n-p, repreat with n'
+n'=0 all remeaining digits are zero
+
+341 to binary
+
+341 is by 2^8
+
+341-256=85
+1????????
+85 by 2^6
+so 
+101?????
+
+
+so on to 101010101
+
+representing 
+integers
+
+issue storing massive numbers and negative numbes
+
+sign-magnitude 
+
+top bit is sign
+
+0=pos'1=neg
+
+modular arithmetic
+
+twos comp
+flip bits
++1
