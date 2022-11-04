@@ -1,0 +1,43 @@
+race conditions
+
+step 1 identify critical regions
+critical region: region of code accessing the shared resource
+step 2 mutual exclusion
+Make sure that no more than 1 process in its critical region at a time
+
+demands
+Result must be correct, even if exact result isn’t predictable
+Solution cannot depend on speed of processes
+Solution cannot depend on the # of CPUs/cores
+Handling race conditions: Mutual exclusion
+
+simple solution 
+Tag-and-lock or test and set
+check if critical region is avaliable by checking "lock" status
+if open go into critical region
+else wait
+if in region set lock
+when done open lock
+
+issue checked at same time will encounter err.
+solution back , make a TSL (test set lock) architecture so that immediately sets locked flag in the PSW (Program Status Word).
+
+issue 2: 
+wastes lot of time if program is the thing that uses the file.
+solution 2: make a primitive that stops programs (SEMAPHORES) that use an integer that show what files are accessible.
+
+SEMAPHORE: is a structure to determine access to a file location or device
+solution FIFO queue to get devices in and out of the file location.
+
+review example from 11/4 slide
+
+download it
+
+MUTEX SEMAPHORE 
+producer
+DOWN(empty)-fill mutex
+up(full)-release to consumer
+
+consumer 
+down(full)-empty mutex
+up(empty)-release to producer
